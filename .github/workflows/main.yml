@@ -19,7 +19,7 @@ jobs:
 
       - id: changelog
         name: Generate changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        uses: mikeoconnor0308/github-changelog-generator-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issues: true
