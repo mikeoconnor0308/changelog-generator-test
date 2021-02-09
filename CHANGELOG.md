@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased](https://github.com/mikeoconnor0308/changelog-generator-test/tree/HEAD)
+
+**Closed issues:**
+
+- test [\#13](https://github.com/mikeoconnor0308/changelog-generator-test/issues/13)
+- test [\#12](https://github.com/mikeoconnor0308/changelog-generator-test/issues/12)
+
+**Merged pull requests:**
+
+- add unreleased settings [\#16](https://github.com/mikeoconnor0308/changelog-generator-test/pull/16) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- update settings [\#15](https://github.com/mikeoconnor0308/changelog-generator-test/pull/15) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- switch back to upstream [\#14](https://github.com/mikeoconnor0308/changelog-generator-test/pull/14) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- Update main.yml [\#11](https://github.com/mikeoconnor0308/changelog-generator-test/pull/11) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- switch to custom generator action [\#10](https://github.com/mikeoconnor0308/changelog-generator-test/pull/10) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+
 ## [v0.0.3](https://github.com/mikeoconnor0308/changelog-generator-test/tree/v0.0.3) (2021-02-09)
 
 **Fixed bugs:**
