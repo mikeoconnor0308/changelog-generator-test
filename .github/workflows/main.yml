@@ -1,19 +1,15 @@
 name: Changelog
 
 on:
+  push:
+    branches: master
   pull_request:
-    types: [closed]
-
-  release:
-    types: [published]
-
-  issues:
-    types: [closed, edited]
+    branches: master
 
 jobs:
-  generate_changelog:
+  Changelog:
     runs-on: ubuntu-latest
-    name: Generate changelog for master branch
+    name: Generate changelog
     steps:
       - uses: actions/checkout@v2
 
@@ -34,8 +30,9 @@ jobs:
         with:
           branch: changelog-autoupdate
           branch-suffix: timestamp
-          title: Changelog Auto-update
+          title: Changelog Update
           commit-message: Update CHANGELOG.md
+      # USE TO COMMIT DIRECTLY TO MASTER
       #- name: Commit and push changelog
       #  run: |
       #    git config --local user.email github-action@entos.ai
