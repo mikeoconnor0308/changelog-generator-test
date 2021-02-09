@@ -1,5 +1,7 @@
 # Changelog
 
+## [v0.0.2](https://github.com/mikeoconnor0308/changelog-generator-test/tree/v0.0.2) (2021-02-09)
+
 ## [v0.0.1](https://github.com/mikeoconnor0308/changelog-generator-test/tree/v0.0.1) (2021-02-09)
 
 
