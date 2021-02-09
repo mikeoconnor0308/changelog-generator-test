@@ -27,6 +27,7 @@ jobs:
           pullRequests: true
           issuesWoLabels: true
           prWoLabels: true
+          unreleased: true
 
       - name: Commit and push changelog
         run: |
