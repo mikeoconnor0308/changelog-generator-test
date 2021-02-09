@@ -30,4 +30,4 @@ jobs:
           git config --local user.email github-action@entos.ai
           git config --local user.name github-action
           echo ${{ steps.changelog.outputs.changelog }} > CHANGELOG.md
-          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo "push=true" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && git push || echo "No changes to CHANGELOG.md"
