@@ -9,6 +9,7 @@
 
 **Merged pull requests:**
 
+- Switch to make a PR rather than commit to master [\#17](https://github.com/mikeoconnor0308/changelog-generator-test/pull/17) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
 - add unreleased settings [\#16](https://github.com/mikeoconnor0308/changelog-generator-test/pull/16) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
 - update settings [\#15](https://github.com/mikeoconnor0308/changelog-generator-test/pull/15) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
 - switch back to upstream [\#14](https://github.com/mikeoconnor0308/changelog-generator-test/pull/14) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
