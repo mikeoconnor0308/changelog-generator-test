@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - id: changelog
-        name: Generate changelog
+        name: Generate Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -29,9 +29,16 @@ jobs:
           prWoLabels: true
           unreleased: true
 
-      - name: Commit and push changelog
-        run: |
-          git config --local user.email github-action@entos.ai
-          git config --local user.name github-action
-          cat CHANGELOG.md
-          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && git push || echo "No changes to CHANGELOG.md"
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: changelog-autoupdate
+          branch-suffix: timestamp
+          title: Changelog Auto-update
+          commit-message: Update CHANGELOG.md
+      #- name: Commit and push changelog
+      #  run: |
+      #    git config --local user.email github-action@entos.ai
+      #    git config --local user.name github-action
+      #    cat CHANGELOG.md
+      #    git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && git push || echo "No changes to CHANGELOG.md"
