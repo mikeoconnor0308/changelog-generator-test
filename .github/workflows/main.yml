@@ -23,11 +23,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit files
-        run: |
-      - uses: actions/checkout@v2
+      - name: Commit and push changelog
       - run: |
           git config --local user.email github-action@entos.ai
           git config --local user.name github-action
           echo ${{ steps.changelog.outputs.changelog }} > CHANGELOG.md
+          cat CHANGELOG.md
           git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && git push || echo "No changes to CHANGELOG.md"
