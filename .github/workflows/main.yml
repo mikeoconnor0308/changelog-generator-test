@@ -19,12 +19,9 @@ jobs:
 
       - id: changelog
         name: Generate changelog
-        uses: mikeoconnor0308/github-changelog-generator-action@test
+        uses: mikeoconnor0308/action-github-changelog-generator@test
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          issues: true
-          authors: true
-          pullRequests: true
 
       - name: Commit and push changelog
         run: |
