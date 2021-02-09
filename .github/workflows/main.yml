@@ -22,6 +22,11 @@ jobs:
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          issues: true
+          author: true
+          pullRequests: true
+          issuesWoLabels: true
+          prWoLabels: true
 
       - name: Commit and push changelog
         run: |
