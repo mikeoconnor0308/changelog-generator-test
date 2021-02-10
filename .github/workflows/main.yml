@@ -23,15 +23,15 @@ jobs:
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          headerLabel: "# 📑 Changelog"
-          breakingLabel: '### 💥 Breaking'
-          enhancementLabel: '### 🚀 Enhancements'
-          bugsLabel: '### 🐛 Bug fixes'
-          deprecatedLabel: '### ⚠️ Deprecations'
-          removedLabel: '### 🔥 Removals'
-          securityLabel: '### 🛡️ Security'
-          issuesLabel: '### 📁 Other issues'
-          prLabel: '### 📁 Other pull requests'
+          headerLabel: "# Changelog"
+          breakingLabel: "### Breaking"
+          enhancementLabel: "### Enhancements"
+          bugsLabel: "### Bug fixes"
+          deprecatedLabel: "### Deprecations"
+          removedLabel: "### Removals"
+          securityLabel: "### Security"
+          issuesLabel: "### Other issues"
+          prLabel: "### Other pull requests"
           issues: true
           issuesWoLabels: true
           pullRequests: true
