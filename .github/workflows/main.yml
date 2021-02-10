@@ -40,16 +40,11 @@ jobs:
           verbose: true
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v3.8.2
         with:
           branch: changelog-autoupdate-${{ steps.vars.outputs.sha_short }}
           branch-suffix: timestamp
           title: Changelog Update
           commit-message: Update CHANGELOG.md
-      # USE TO COMMIT DIRECTLY TO MASTER
-      #- name: Commit and push changelog
-      #  run: |
-      #    git config --local user.email github-action@entos.ai
-      #    git config --local user.name github-action
-      #    cat CHANGELOG.md
-      #    git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && git push || echo "No changes to CHANGELOG.md"
+          token: ${{ secrets.GHA_ACCESS_TOKEN }}
+          base: ${{ github.head_ref }}
