@@ -9,6 +9,10 @@
 
 **Merged pull requests:**
 
+- Update main.yml [\#21](https://github.com/mikeoconnor0308/changelog-generator-test/pull/21) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- Update main.yml [\#20](https://github.com/mikeoconnor0308/changelog-generator-test/pull/20) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- Update main.yml [\#19](https://github.com/mikeoconnor0308/changelog-generator-test/pull/19) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
+- Changelog Auto-update [\#18](https://github.com/mikeoconnor0308/changelog-generator-test/pull/18) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Switch to make a PR rather than commit to master [\#17](https://github.com/mikeoconnor0308/changelog-generator-test/pull/17) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
 - add unreleased settings [\#16](https://github.com/mikeoconnor0308/changelog-generator-test/pull/16) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
 - update settings [\#15](https://github.com/mikeoconnor0308/changelog-generator-test/pull/15) ([mikeoconnor0308](https://github.com/mikeoconnor0308))
