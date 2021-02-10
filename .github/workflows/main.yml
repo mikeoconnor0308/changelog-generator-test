@@ -3,8 +3,6 @@ name: Changelog
 on:
   push:
     branches: master
-  pull_request:
-    types: [closed]
 
 jobs:
   Changelog:
@@ -24,10 +22,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           headerLabel: "# Changelog"
-          breakingLabel: "### Breaking"
-          enhancementLabel: "### Enhancements"
-          bugsLabel: "### Bug fixes"
-          deprecatedLabel: "### Deprecations"
+          breakingLabel: "Breaking"
+          enhancementLabel: "###Enhancements"
+          bugsLabel: Bug fixes
+          deprecatedLabel: '### Deprecations'
           removedLabel: "### Removals"
           securityLabel: "### Security"
           issuesLabel: "### Other issues"
