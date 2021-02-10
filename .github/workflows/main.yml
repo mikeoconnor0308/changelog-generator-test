@@ -23,13 +23,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           headerLabel: "# Changelog"
           breakingLabel: "Breaking"
-          enhancementLabel: "###Enhancements"
+          enhancementLabel: "** Enhancements **"
           bugsLabel: Bug fixes
           deprecatedLabel: '### Deprecations'
           removedLabel: "### Removals"
           securityLabel: "### Security"
-          issuesLabel: "### Other issues"
-          prLabel: "### Other pull requests"
+          issuesLabel: "** 📁 Other issues **"
+          prLabel: "** 📁 Other issues **"
           issues: true
           issuesWoLabels: true
           pullRequests: true
