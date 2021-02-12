@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate Changelog
         id: changelog
-        uses: mikeoconnor0308/github-changelog-generator-action@a38159e03b1574479a51359c29663d25291bd3e1
+        uses: mikeoconnor0308/action-github-changelog-generator@a38159e03b1574479a51359c29663d25291bd3e1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           headerLabel: "# Changelog"
