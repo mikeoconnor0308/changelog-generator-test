@@ -46,5 +46,4 @@ jobs:
           branch-suffix: timestamp
           title: Changelog Update
           commit-message: Update CHANGELOG.md
-          token: ${{ secrets.GHA_ACCESS_TOKEN }}
           base: ${{ github.head_ref }}
