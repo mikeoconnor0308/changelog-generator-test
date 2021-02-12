@@ -40,7 +40,7 @@ jobs:
           unreleased: true
           stripGeneratorNotice: true
           verbose: true
-          addSections: '{"foundry":{"prefix":"### Foundry updates", labels":["envision"]},"envision":{"prefix":"### Envision updates", labels":["envision"]}}'
+          addSections: '{"foundry":{"prefix":"### Foundry updates", "labels":["envision"]},"envision":{"prefix":"### Envision updates", "labels":["envision"]}}'
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.8.2
